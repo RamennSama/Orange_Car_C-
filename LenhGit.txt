@@ -153,6 +153,7 @@ mỗi lẫn revert [commit_id] : thì cần xóa hết các chữ trong file, v�
  => cần tạo folder có repo local
 - git remote add origin [mã_repo_github] : kết nối local repo(laptop) với central repo(github)
 - git fetch origin : dùng để cập nhật các nhánh trên github vì nó ko cập nhật sẵn
+- git remote remove origin : dùng để xóa repo central đang kết nối trên folder(hiện tại)
 
 = git branch -M [tên_nhánh] : đổi tên nhánh thành cái [tên_nhánh] vừa nhập
 
@@ -171,7 +172,8 @@ còn git remote ... là kết nối : ko hiện folder về máy.
 
 - git fetch newUpstream : xem có gì mới(có thể có hiện hoặc ko, hên xui).
 
-- git remote -v :là một lệnh trong Git dùng để hiển thị tất cả các remote URL mà repository của bạn đã được cấu hình 
+- git remote -v :là một lệnh trong Git dùng để hiển thị tất cả các remote URL mà repository của bạn đã được cấu hình.
+= Khi bạn clone một repository từ GitHub hoặc một nguồn khác, repository đó sẽ trở thành "remote" của repository local của bạn.
 = Trong Git, "origin" là tên mặc định được sử dụng để đặt tên cho remote repository khi bạn clone một repository từ một nguồn khác như GitHub, GitLab, hay Bitbucket.
 
 - để update dự án đó về máy : dùng git merge newUpstream/(tên nhánh hiện tại).
