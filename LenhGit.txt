@@ -173,7 +173,7 @@ còn git remote ... là kết nối : ko hiện folder về máy.
 - git fetch newUpstream : xem có gì mới(có thể có hiện hoặc ko, hên xui).
 
 - git remote -v :là một lệnh trong Git dùng để hiển thị tất cả các remote URL mà repository của bạn đã được cấu hình.
-= Khi bạn clone một repository từ GitHub hoặc một nguồn khác, repository đó sẽ trở thành "remote" của repository local của bạn.
+= Trong Git, "remote" đề cập đến một bản sao của repository của bạn được lưu trữ trên một máy chủ từ xa, thường là trên một dịch vụ như GitHub, GitLab, hay Bitbucket.
 = Trong Git, "origin" là tên mặc định được sử dụng để đặt tên cho remote repository khi bạn clone một repository từ một nguồn khác như GitHub, GitLab, hay Bitbucket.
 
 - để update dự án đó về máy : dùng git merge newUpstream/(tên nhánh hiện tại).
