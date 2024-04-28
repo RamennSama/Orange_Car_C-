@@ -53,6 +53,7 @@ fun main(){
 // lần xuất hiện đầu tiên của một văn bản được chỉ định trong một chuỗi (bao gồm cả khoảng trắng):
 // println(nums.count()) : độ dài của list
 // println(10 in nums) : kiểm tra có trong list ko
+// name.forEach { print("$it ")} : vòng foreach, tham số phải đúng là it
 // gán list cho list khác cùng kiểu dữ liệu : val resultList : List<Int> = nums
 // => sau khi xóa hoặc thêm, để bảo mật list đó, nên dùng 1 list khác gán vào nó
 
