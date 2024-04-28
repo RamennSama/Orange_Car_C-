@@ -190,3 +190,4 @@ FORK sau đó mới pull request
 - git push origin --delete : xóa nhánh trên github
 - git push origin [tên_nhánh] : push nhánh lên github
 - git branch -a : Để hiển thị tất cả các nhánh sau khi bạn đã clone một repository về máy
+=> nếu là kết nối với dự án 'ko phải clone', cần git fetch, sau đó git branch -a sẽ hiện ra
