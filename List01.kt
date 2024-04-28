@@ -55,3 +55,8 @@ fun main(){
 // println(10 in nums) : kiểm tra có trong list ko
 // gán list cho list khác cùng kiểu dữ liệu : val resultList : List<Int> = nums
 // => sau khi xóa hoặc thêm, để bảo mật list đó, nên dùng 1 list khác gán vào nó
+
+// 3 kieu khai bao list :
+// val nums : List<Int> = listOf(1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
+// val nums = listOf<Int> (1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
+// val nums = listOf(1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
