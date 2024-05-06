@@ -64,4 +64,8 @@ fun main(){
 // 3 kieu khai bao list :
 // val nums : List<Int> = listOf(1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
 // val nums = listOf<Int> (1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
+<<<<<<< HEAD
 // val nums = listOf(1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
+=======
+// val nums = listOf(1, 2, 3, 10, 4, 6, 5, 9, 8, 7)
+>>>>>>> a4ff8688faa1325b38dae2d3c53b8c5592bd978b
